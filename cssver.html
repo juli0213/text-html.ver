@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html+css</title>
+    <style>
+        /*通用样式*/
+        .wp{width: 960px;margin:0 auto;}/*居中*/
+        .z{float: left;}/*左浮动*/
+        .y{float: right;}/*右浮动*/
+        .cl{clear: both;}/*清除浮动*/
+        *{margin: 0;padding: 0}
+        .header
+        {
+            height: 150px;
+            width:100%;
+        }
+        .header h1
+        {
+            padding-top: 10px;
+            text-align:center;
+        }
+        .infor li
+        {
+            list-style: none;
+            font-size: 16px;
+            float: left;
+            line-height: 15px;
+            padding: 15px 129px;
+        }
+        .infor li.x
+        {
+            padding-left: 60px;
+        }
+        .self-infor
+        {
+            height: px;
+            width:100%;
+        }
+        .self-infor li
+        {
+            list-style: none;
+            font-size: 16px;
+            float: left;
+            line-height: 15px;
+            padding: 20px 60px;
+        }
+        .center
+        {
+            height: 1350px;
+            width:100%;
+        }
+        .tex1
+        {
+            height: 200px;
+            padding: 15px 60px;
+
+        }
+        .tex1-title
+        {
+            height: 50px;
+            background-color: bisque;
+        }
+        .tex1-title h3
+        {
+            padding-left: 5px;
+            padding-top: 10px;
+        }
+        .tex1-word
+        {
+            height: 150px;
+            border-style: solid;
+            border-color: bisque;
+        }
+        .tex1-word ol
+        {
+            padding-left: 20px;
+        }
+        .tex1-word li
+        {
+            font-size: 18px;
+            padding-top: 20px;
+        }
+
+        .tex2
+        {
+            height: 300px;
+            padding: 15px 60px;
+
+        }
+        .tex2-title
+        {
+            height: 50px;
+            background-color: bisque;
+        }
+        .tex2-title h3
+        {
+            padding-left: 5px;
+            padding-top: 10px;
+        }
+        .tex2-word
+        {
+            height: 250px;
+            border-style: solid;
+            border-color: bisque;
+        }
+        .tex2-word ol
+        {
+            padding-left: 20px;
+            font-size: 15px;
+        }
+        .tex2-word ul
+        {
+            padding-top: 10px;
+            list-style: none;
+        }
+        .tex2-word ul.li
+        {
+            font-size: 15px;
+            padding-top: 0px;
+        }
+
+        .tex3
+        {
+            height: 300px;
+            padding: 15px 60px;
+
+        }
+        .tex3-title
+        {
+            height: 50px;
+            background-color: bisque;
+        }
+        .tex3-title h3
+        {
+            padding-left: 5px;
+            padding-top: 10px;
+        }
+        .tex3-word
+        {
+            height: 250px;
+            border-style: solid;
+            border-color: bisque;
+        }
+        .tex3-word ol
+        {
+            padding-left: 20px;
+            font-size: 15px;
+        }
+        .tex3-word ul
+        {
+            padding-top: 10px;
+            list-style: none;
+        }
+        .tex3-word ul.li
+        {
+            font-size: 18px;
+            padding-top: 0;
+        }
+
+        .tex4
+        {
+            height: 170px;
+            padding: 15px 60px;
+
+        }
+        .tex4-title
+        {
+            height: 50px;
+            background-color: bisque;
+        }
+        .tex4-title h3
+        {
+            padding-left: 5px;
+            padding-top: 10px;
+        }
+        .tex4-word
+        {
+            height: 120px;
+            border-style: solid;
+            border-color: bisque;
+        }
+        .tex4-word ol
+        {
+            padding-left: 20px;
+            font-size: 18px;
+        }
+        .tex4-word ol.li
+        {
+            padding-left: 20px;
+            font-size: 18px;
+        }
+        .tex5
+        {
+            height: 170px;
+            padding: 15px 60px;
+
+        }
+        .tex5-title
+        {
+            height: 50px;
+            background-color: bisque;
+        }
+        .tex5-title h3
+        {
+            padding-left: 5px;
+            padding-top: 10px;
+        }
+        .tex5-word
+        {
+            height: 120px;
+            border-style: solid;
+            border-color: bisque;
+        }
+        .tex5-word ol
+        {
+            padding-left: 20px;
+            font-size: 18px;
+        }
+        .tex5-word ol.li
+        {
+            padding-left: 20px;
+            font-size: 18px;
+        }
+        .footer
+        {
+            padding-top: 20px;
+            text-align: center;
+            height: 50px;
+        }
+        .footer button
+        {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="title">
+        <div class="wp">
+            <h1>统一建模语言理论测试</h1>
+        </div>
+
+    </div>
+
+    <div class="infor">
+        <div class="cl">
+            <ul>
+                <li class="x">考试科目：统一建模语言</li>
+                <li>时间：100分钟</li>
+                <li>得分：</li>
+            </ul>
+        </div>
+    </div>
+    <div class="self-infor">
+        <ul>
+            <li>班级（必填）：
+                <input type="text" name="banji">
+            </li>
+            <li>学号（必填）：
+                <input type="text" name="xuehao">
+            </li>
+            <li>姓名（必填）：
+                <input type="text" name="xingming"></li>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="center">
+    <div class="tex1">
+        <div class="tex1-title">
+            <h3>一、填空题（每空５分，共２０分）</h3>
+        </div>
+        <div class="tex1-word">
+            <ol>
+                <li>UML的中文全称是：</li>
+                <input type="text" name="1.1">
+
+                <li>对象最突出的特征是：</li>
+                <input type="text" name="1.2.1">
+                <input type="text" name="1.2.2">
+                <input type="text" name="1.2.3">
+
+            </ol>
+        </div>
+    </div>
+    <div class="tex2">
+        <div class="tex2-title">
+            <h3>二、选择题（每空１０分，共２０分）</h3>
+        </div>
+        <div class="tex2-word">
+            <ol>
+                <li><h3>UML与软件工程的的关系是：</h3>
+                    <ul class="xuan">
+                        <li><input type="radio" name="3.1" value="A">
+                            （A）ＵＭＬ就是软件工程</li>
+                        <li><input type="radio" name="3.1" value="Ｂ">
+                            （B）ＵＭＬ参与到软件工程中软件开发过程中的及格阶段</li>
+                        <li><input type="radio" name="3.1" value="B">
+                            （C）ＵＭＬ与软件工程无关</li>
+                        <li><input type="radio" name="3.1" value="D">
+                            （D）ＵＭＬ是软件工程的一部分</li>
+                    </ul>
+
+                </li>
+                <li><h3>Java语言支持：</h3></li>
+                <input type="radio" name="3.２" value="A">
+                （A）单继承
+                <br>
+                <input type="radio" name="3.２" value="Ｂ">
+                （B）多继承
+                <br>
+                <input type="radio" name="3.２" value="B">
+                （C）单继承和多继承都支持
+                <br>
+                <input type="radio" name="3.２" value="D">
+                （D）单继承和多继承都不支持
+                <br>
+            </ol>
+        </div>
+    </div>
+    <div class="tex3">
+        <div class="tex3-title"><h3>三、多项选择题（每空１０分，共２０分）</h3></div>
+        <div class="tex3-word">
+            <ol>
+                <li><h3>用例的粒度为一下哪三种:</h3>
+                    <ul>
+                        <li><input type="checkbox" name="2.1" value="A">
+                            （A）概述级</li>
+                        <li><input type="checkbox" name="2.1" value="Ｂ">
+                            （B）需求级</li>
+                        <li><input type="checkbox" name="2.1" value="B">
+                            （C）用户目标级</li>
+                        <li><input type="checkbox" name="2.1" value="D">
+                            （D）子功能级</li>
+                    </ul>
+                </li>
+
+
+                <li><h3>类图由以下哪三个部分组成:</h3>
+                    <ul>
+                        <li><input type="checkbox" name="2.２" value="A">
+                            （A）名称(name)</li>
+                        <li><input type="checkbox" name="2.２" value="Ｂ">
+                            （B）属性(Attributte)</li>
+                        <li><input type="checkbox" name="2.２" value="B">
+                            （C）操作(Operation)</li>
+                        <li>
+                            <input type="checkbox" name="2.２" value="D">
+                            （D）方法(Function)</li></li>
+                    </ul>
+                <br>
+            </ol>
+        </div>
+    </div>
+    <div class="tex4">
+        <div class="tex4-title"><h3>四、判断题（每空１０分，共２０分）</h3></div>
+        <div class="tex4-word">
+            <ol>
+                <li>用例图只是用于和客户交流和沟通的,用于确定需求．
+                    <input type="radio" name="4.1" value="true">
+                    <input type="radio" name="4.1" value="fault">
+                </li>
+
+                <br>
+                <li>在状态图中终止状态在一个状态图中允许有任意多个．
+                    <input type="radio" name="4.2" value="true">
+                    <input type="radio" name="4.2" value="fault">
+                </li>
+
+            </ol>
+        </div>
+    </div>
+    <div class="tex5">
+        <div class="tex5-title"><h3>五、简答题（每空2０分，共２０分）</h3></div>
+        <div class="tex5-word">
+            <ol>
+            <li>简述什么是模型以及模型的表达形式?</li>
+            <textarea name="5.1" rows="5"></textarea>
+        </ol>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <button name="add" type="button" >计算分数</button>
+</div>
+
+</body>
+</html>
